@@ -15,6 +15,7 @@ body {
     background-color: var(--secondary-color);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+/* END - BODY STYLING */
 
 /* START - HEADER STYLING */
 header {
@@ -97,28 +98,56 @@ header nav ul li a:hover {
 }
 /* END HERO IMAGE STYLING */
 
+/* START - ABOUT ME */
+#about-me {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* END - ABOUT ME */
+
+/* START - WORK */
+#work {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 /* START - FOOTER STYLING */
 footer {
     background: var(--tertiary-color);
     background: rgba(241,217,191,0.5);
     padding: 40px 35px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-}
-  
-footer h2 {
-    color: var(--tertiary-color);
-    font-size: 30px;
-    margin: 0;
 }
   
 footer a {
     color: var(--tertiary-color);
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-form h2 {
+    flex-wrap: wrap;
+    color: var(--tertiary-color);
+    font-size: 30px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.contact-form input, 
+.contact-form textarea {
     border: 1px solid var(--tertiary-color);
     display: block;
     padding: 7px 15px;
@@ -129,14 +158,14 @@ footer a {
     margin-top: 5px;
     border-radius: 10px;
     background-color: rgba(252,248,243, 0.75);
-  }
+}
   
-  .contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus, .contact-form textarea:focus {
     background-color: rgba(252,248,243, 1);
     outline: none;
-  }
+}
   
-  .contact-form button {
+.contact-form button {
     width: 30%;
     border: 1px solid var(--tertiary-color);
     background: var(--secondary-color);
@@ -147,8 +176,12 @@ footer a {
     border-radius: 10px;
   }
   
-  .contact-form button:hover {
+.contact-form button:hover {
     color: var(--tertiary-color);
     background: var(--primary-color);
-  }
+}
+
+.connect {
+    background: var(--tertiary-color);
+}
   /* END FOOTER STYLES */
