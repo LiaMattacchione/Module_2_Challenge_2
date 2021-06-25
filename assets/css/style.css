@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #F1D9BF;
-  --secondary-color: #FCF8F3;
-  --tertiary-color: #2E211B;
+    --primary-color: #F1D9BF;
+    --secondary-color: #FCF8F3;
+    --tertiary-color: #2E211B;
 }
-
+  
 * {
     box-sizing: border-box;
     margin: 0;
@@ -46,7 +46,7 @@ header nav {
     margin: 10px 0 0 0;
     color: var(--tertiary-color);
 }
-  
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -54,17 +54,16 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
-  
+
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
     font-size: 1.55vw;
     color: var(--tertiary-color);
     text-decoration: none;
 }
-  
+
 header nav ul li a:hover {
-    background: var(--primary-color);
+    background: rgba(241,217,191,0.6);
     color: var(--tertiary-color);
     border-radius: 10px 10px 0 0;
 }
@@ -73,23 +72,25 @@ header nav ul li a:hover {
 /* START HERO IMAGE STYLING */
 .hero {
     background-image: url("../images/Lia_hero.jpg");
-    background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     height: 600px;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: flex-end;
     background-attachment: fixed;
+    background-size: cover;
     background-position: 100%;
 }
 
 .hero-subtitle {
+    display: flex;
     flex-wrap: wrap;
-    align-self: flex-end;
-    justify-content: flex-end;
-    background-color: var(--primary-color);
+    background: rgba(241,217,191,0.6);
+    color: var(--tertiary-color);
+    font-size: 1.3vw;
     padding: 10px;
-    border-radius: 5px 5px 0 0;
+    margin: 0 20px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 /* END HERO IMAGE STYLING */
 
@@ -114,7 +115,7 @@ header nav ul li a:hover {
 
 /* START - FOOTER STYLING */
 footer {
-    background: var(--tertiary-color);
+    color: var(--tertiary-color);
     background: rgba(241,217,191,0.5);
     padding: 40px 35px;
     display: flex;
@@ -122,7 +123,7 @@ footer {
     justify-content: space-between;
     width: 100%;
 }
-  
+
 footer a {
     color: var(--tertiary-color);
 }
@@ -154,12 +155,12 @@ footer a {
     border-radius: 10px;
     background-color: rgba(252,248,243, 0.75);
 }
-  
+
 .contact-form input:focus, .contact-form textarea:focus {
     background-color: rgba(252,248,243, 1);
     outline: none;
 }
-  
+
 .contact-form button {
     width: 30%;
     border: 1px solid var(--tertiary-color);
@@ -169,8 +170,8 @@ footer a {
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
-  }
-  
+}
+
 .contact-form button:hover {
     color: var(--tertiary-color);
     background: var(--primary-color);
@@ -188,11 +189,9 @@ footer a {
         padding-bottom: 0px;
         justify-content: center;
         position: relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
+        position: sticky;
+        position: -webkit-sticky;
+        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -211,6 +210,47 @@ footer a {
         background-position: center;
     }
 
+    .hero-subtitle {
+        font-size: 25px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* WIDTH AT 980px AND BELOW */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0px;
+        justify-content: center;
+        position: relative;
+        position: sticky;
+        position: -webkit-sticky;
+        padding-bottom: 10px;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 25px;
+    }
+    
+    .hero {
+        width: 100%;
+        position: relative;
+        background-position: center;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+    }
+
     footer h2, footer div {
         text-align: center;
         width: 100%;
@@ -223,11 +263,8 @@ footer a {
         padding-bottom: 0px;
         justify-content: center;
         position: relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
+        position: sticky;
+        position: -webkit-sticky;
     }
     
     header nav ul {
@@ -244,6 +281,11 @@ footer a {
         width: 100%;
         position: relative;
         background-position: center;
+    }
+
+    .hero-subtitle {
+        /* font-size: 19px; */
+        margin-left: 10px;
     }
 
     footer h2, footer div {
@@ -258,11 +300,8 @@ footer a {
         padding-bottom: 0px;
         justify-content: center;
         position: relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
+        position: sticky;
+        position: -webkit-sticky;
     }
     
     header nav ul {
@@ -279,6 +318,11 @@ footer a {
         width: 100%;
         position: relative;
         background-position: center;
+    }
+
+    .hero-subtitle {
+        /* font-size: 22px; */
+        margin-left: 10px;
     }
 
     footer h2, footer div {
@@ -293,11 +337,8 @@ footer a {
         padding-bottom: 0px;
         justify-content: center;
         position: relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
+        position: sticky;
+        position: -webkit-sticky;
     }
     
     header nav ul {
@@ -316,43 +357,51 @@ footer a {
         background-position: center;
     }
 
+    .hero-subtitle {
+        /* font-size: 20px; */
+        margin-left: 10px;
+    }
+
     footer h2, footer div {
         text-align: center;
         width: 100%;
     }
 }
-
+  
 /* WIDTH AT 480px AND BELOW */
 @media screen and (max-width: 480) {
     header {
         padding-bottom: 0px;
         justify-content: center;
         position: relative;
+        position: sticky;
+        position: -webkit-sticky;
     }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
+      
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
-    
+      
     header nav ul li a {
-        font-size: 22px;
+        font-size: 20px;
     }
-    
+      
     .hero {
         width: 100%;
         position: relative;
         background-position: center;
     }
-
+  
+    .hero-subtitle {
+        /* font-size: 20px; */
+        margin-left: 10px;
+    }
+  
     footer h2, footer div {
         text-align: center;
         width: 100%;
     }
 }
+  
