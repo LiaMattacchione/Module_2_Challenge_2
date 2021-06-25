@@ -175,13 +175,13 @@ header nav ul li a:hover {
 
 /* START - FOOTER STYLING */
 footer {
-    color: var(--tertiary-color);
-    background: rgba(241,217,191,0.5);
-    padding: 40px 35px;
     display: flex;
     flex-wrap: wrap;
+    background: rgba(241,217,191,0.5);
+    padding: 40px 35px;    
     justify-content: space-between;
     width: 100%;
+    color: var(--tertiary-color);
 }
 
 footer a {
