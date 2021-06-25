@@ -19,18 +19,17 @@ body {
 
 /* START - HEADER STYLING */
 header {
-    padding: 10px 35px 0 35px;
-    background-color: var(--primary-color);
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
+    justify-content: space-between;
     position: -webkit-sticky;
     top: 0;
     background-image: url("../images/Lia_hero.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: 100%;
+    background-position: center;
+    padding: 10px 35px 0 35px;
     z-index: 9999;
 }
 
@@ -78,6 +77,7 @@ header nav ul li a:hover {
     justify-content: flex-end;
     align-content: flex-end;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 
@@ -179,27 +179,34 @@ footer {
     flex-wrap: wrap;
     background: rgba(241,217,191,0.5);
     padding: 40px 35px;    
-    justify-content: space-between;
+    margin-bottom: 30px;
     width: 100%;
     color: var(--tertiary-color);
+    justify-content: center;
 }
 
 footer a {
     color: var(--tertiary-color);
+    min-height: 10px;
 }
 
-.contact-form {
+.contact-me {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    
+}
+
+
+
+.contact-form {
+    justify-content: space-between;
+    
 }
 
 .contact-form h2 {
-    flex-wrap: wrap;
     color: var(--tertiary-color);
     font-size: 30px;
     margin: 0;
-    justify-content: space-between;
 }
 
 .contact-form input, 
@@ -235,6 +242,12 @@ footer a {
 .contact-form button:hover {
     color: var(--tertiary-color);
     background: var(--primary-color);
+}
+
+
+
+.fa {
+    text-decoration: none;
 }
 
 /* .connect {
