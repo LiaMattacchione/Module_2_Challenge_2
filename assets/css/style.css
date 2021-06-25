@@ -35,7 +35,7 @@ header {
 }
 
 header div img {
-    height: 80px;
+    height: 70px;
 }
 
 header h1 a {
@@ -94,24 +94,37 @@ header nav ul li a:hover {
 }
 /* END HERO IMAGE STYLING */
 
-/* START - ABOUT ME */
-#about-me {
-    width: 75%;
-    margin: 0 auto;
+/* START - FLEX STYLING ABOUT ME & WORK */
+.flex-about-me, .flex-work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    color: var(--tertiary-color);
+    align-items: center;
 }
-/* END - ABOUT ME */
 
-/* START - WORK */
-#work {
-    width: 75%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.flex-about-me-title, .flex-work-title {
+    width: 45%;
+    text-align: right;
+    font-size: 32px;
+    padding-right: 20px;
 }
+
+.flex-about-me-bio, .flex-work-tiles {
+    width: 45%;
+    padding-left: 30px;
+    border-left: 4px solid var(--tertiary-color);
+}
+
+.flex-about-me-bio a {
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+/* END - FLEX STYLING ABOUT ME & WORK */
 
 /* START - FOOTER STYLING */
 footer {
