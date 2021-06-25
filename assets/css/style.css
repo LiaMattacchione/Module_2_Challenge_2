@@ -100,21 +100,23 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 20px;
     color: var(--tertiary-color);
     align-items: center;
 }
 
 .flex-about-me-title, .flex-work-title {
-    width: 45%;
+    width: 25%;
     text-align: right;
     font-size: 32px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .flex-about-me-bio, .flex-work-tiles {
-    width: 45%;
-    padding-left: 30px;
+    width: 65%;
+    padding: 0 20px 0 30px;
     border-left: 4px solid var(--tertiary-color);
+    border-radius: 10px;
 }
 
 .flex-about-me-bio a {
@@ -124,6 +126,54 @@ header nav ul li a:hover {
 }
 
 
+.flex-work-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .headings h3 {
+    align-self: flex-end;
+} */
+
+.flex-tiles {
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    border: 2px solid #2E211B;
+    margin-bottom: 30px;
+    align-content: flex-end;
+}
+
+.tile-small {
+    width: 48%;
+    min-height: 216px;
+}
+
+.GEDC {
+    width: 100%;
+    background-image: url('../images/GEDC.png');
+    min-height: 350px;
+}
+
+.Healthy {
+    background-image: url('../images/HealthyDebate.png');
+    margin-right: 32px;
+}
+
+.KEEN {
+    background-image: url('../images/keen.jpg');
+}
+
+.headings {
+    width: 60%;
+    background: rgba(241,217,191,0.6);
+    color: var(--tertiary-color);
+    font-size: 1.1vw;
+    padding: 10px;
+    /* margin: 0 20px 0 0; */
+    border-radius: 0 10px 10px 0;
+    align-content: flex-end;
+}
 /* END - FLEX STYLING ABOUT ME & WORK */
 
 /* START - FOOTER STYLING */
