@@ -77,14 +77,11 @@ header nav ul li a:hover {
     height: 600px;
     justify-content: flex-end;
     align-content: flex-end;
-    background-attachment: fixed;
     background-size: cover;
-    background-position: 100%;
+    background-position: center;
 }
 
 .hero-subtitle {
-    display: flex;
-    flex-wrap: wrap;
     background: rgba(241,217,191,0.6);
     color: var(--tertiary-color);
     font-size: 1.3vw;
@@ -113,6 +110,8 @@ header nav ul li a:hover {
 }
 
 .flex-about-me-bio, .flex-work-tiles {
+    display: flex;
+    flex-wrap: wrap;
     width: 65%;
     padding: 0 20px 0 30px;
     border-left: 4px solid var(--tertiary-color);
@@ -125,28 +124,22 @@ header nav ul li a:hover {
     font-weight: bolder;
 }
 
-
-.flex-work-tiles {
+.flex-tiles {
     display: flex;
     flex-wrap: wrap;
-}
-
-/* .headings h3 {
-    align-self: flex-end;
-} */
-
-.flex-tiles {
     background-size: cover;
     background-position: center;
     border-radius: 14px;
     border: 2px solid #2E211B;
     margin-bottom: 30px;
     align-content: flex-end;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
 .tile-small {
     width: 48%;
-    min-height: 216px;
+    min-height: 250px;
 }
 
 .GEDC {
@@ -169,11 +162,15 @@ header nav ul li a:hover {
     background: rgba(241,217,191,0.6);
     color: var(--tertiary-color);
     font-size: 1.1vw;
-    padding: 10px;
-    /* margin: 0 20px 0 0; */
-    border-radius: 0 10px 10px 0;
-    align-content: flex-end;
+    padding: 10px 0 10px 10px;
+    border-radius: 0 10px 10px 10px;
 }
+
+.GEDC:hover, .Healthy:hover, .KEEN:hover {
+    opacity: 1;
+    border-radius: 14px;
+}
+
 /* END - FLEX STYLING ABOUT ME & WORK */
 
 /* START - FOOTER STYLING */
