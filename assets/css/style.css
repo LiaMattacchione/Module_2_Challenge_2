@@ -453,7 +453,7 @@ footer {
     }
 
     .GEDC, .Healthy, .KEEN {
-        width: 80%;
+        width: 100%;
         min-height: 250px;
         margin-right: 0;
         margin-bottom: 30px;
@@ -510,15 +510,15 @@ footer {
     }
     
     header nav ul li a {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .hero-subtitle {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .flex-about-me-title, .flex-work-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .flex-about-me-bio {
@@ -526,7 +526,7 @@ footer {
     }
 
     .GEDC, .Healthy, .KEEN {
-        width: 80%;
+        width: 100%;
         min-height: 250px;
         margin-right: 0;
         margin-bottom: 30px;
@@ -577,7 +577,7 @@ footer {
     }
     
     header nav ul {
-        margin-top: 20px;
+        margin-top: 10px;
         width: 100%;
         justify-content: center;
     }
@@ -599,7 +599,7 @@ footer {
     }
 
     .GEDC, .Healthy, .KEEN {
-        width: 80%;
+        width: 100%;
         min-height: 250px;
         margin-right: 0;
         margin-bottom: 30px;
