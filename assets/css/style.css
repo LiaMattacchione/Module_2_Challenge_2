@@ -310,7 +310,7 @@ footer {
         align-content: flex-start;
         justify-content: center;
     }
-}
+} 
 
 /* WIDTH AT 980px AND BELOW */
 @media screen and (max-width: 980px) {
