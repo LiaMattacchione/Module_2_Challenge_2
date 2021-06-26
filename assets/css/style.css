@@ -178,42 +178,29 @@ footer {
     display: flex;
     flex-wrap: wrap;
     background: rgba(241,217,191,0.5);
-    padding: 40px 35px;    
-    margin-bottom: 30px;
     width: 100%;
+    padding: 30px;
     color: var(--tertiary-color);
+    align-content: flex-start;
     justify-content: center;
 }
 
-footer a {
-    color: var(--tertiary-color);
-    min-height: 10px;
+.contact-form, .connect {
+    padding: 0 50px;
 }
 
-.contact-me {
+.contact-form h2, .connect h2 {
     display: flex;
     flex-wrap: wrap;
-    
-}
-
-
-
-.contact-form {
-    justify-content: space-between;
-    
-}
-
-.contact-form h2 {
     color: var(--tertiary-color);
     font-size: 30px;
-    margin: 0;
 }
 
 .contact-form input, 
 .contact-form textarea {
     border: 1px solid var(--tertiary-color);
     display: block;
-    padding: 7px 15px;
+    padding: 10px 15px;
     font-size: 16px;
     color: var(--tertiary-color);
     width: 100%;
@@ -224,19 +211,21 @@ footer a {
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(252,248,243, 1);
+    background-color: rgb(255, 255, 255);
     outline: none;
 }
 
 .contact-form button {
+    display: flex;
+    flex-wrap: wrap;
     width: 30%;
     border: 1px solid var(--tertiary-color);
     background: var(--secondary-color);
     color: var(--tertiary-color);
-    text-align: center;
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
+    margin: auto;
 }
 
 .contact-form button:hover {
@@ -244,15 +233,28 @@ footer a {
     background: var(--primary-color);
 }
 
-
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
 
 .fa {
     text-decoration: none;
+    color: var(--tertiary-color);
+    padding: 3px;
+    border: 2px solid #2E211B;
+    border-radius: 14px;
 }
 
-/* .connect {
-    
-} */
+.fa:hover {
+    opacity: 0.5;
+    padding: 3px;
+    border: 2px solid #2E211B;
+    border-radius: 14px;
+}
+
 /* END FOOTER STYLES */
 
 /* MEDIA QUERIES*/
