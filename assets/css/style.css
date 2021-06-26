@@ -254,8 +254,7 @@ footer {
     border: 2px solid #2E211B;
     border-radius: 14px;
 }
-
-/* END FOOTER STYLES */
+/* END - FOOTER STYLING */
 
 /* MEDIA QUERIES*/
 /* WIDTH AT 1024px AND BELOW */
@@ -278,20 +277,37 @@ footer {
     header nav ul li a {
         font-size: 25px;
     }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
-    }
 
     .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .flex-about-me-title, .flex-work-title {
         font-size: 25px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .GEDC, .Healthy, .KEEN {
+        width: 80%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .headings h3 {
+        font-size: 15px;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
     }
 }
 
@@ -315,20 +331,37 @@ footer {
     header nav ul li a {
         font-size: 25px;
     }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
-    }
 
     .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .flex-about-me-title, .flex-work-title {
         font-size: 25px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .GEDC, .Healthy, .KEEN {
+        width: 80%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .headings h3 {
+        font-size: 15px;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
     }
 }
 
@@ -340,6 +373,7 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -349,23 +383,43 @@ footer {
     }
     
     header nav ul li a {
-        font-size: 22px;
-    }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+        font-size: 25px;
     }
 
     .hero-subtitle {
-        /* font-size: 19px; */
-        margin-left: 10px;
+        font-size: 15px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .flex-about-me-title, .flex-work-title {
+        font-size: 25px;
+    }
+
+    .GEDC, .Healthy, .KEEN {
+        width: 80%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .headings h3 {
+        font-size: 13px;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
     }
 }
 
@@ -377,6 +431,7 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -386,23 +441,54 @@ footer {
     }
     
     header nav ul li a {
-        font-size: 22px;
-    }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+        font-size: 20px;
     }
 
     .hero-subtitle {
-        /* font-size: 22px; */
-        margin-left: 10px;
+        font-size: 15px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .flex-about-me-title, .flex-work-title {
+        font-size: 25px;
+    }
+
+    .GEDC, .Healthy, .KEEN {
         width: 100%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
+    }
+
+    .headings h3 {
+        font-size: 13px;
+    }
+
+    .headings p {
+        font-size: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .connect {
+        padding-top: 30px;
     }
 }
 
@@ -414,6 +500,7 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -423,23 +510,58 @@ footer {
     }
     
     header nav ul li a {
-        font-size: 22px;
-    }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+        font-size: 18px;
     }
 
     .hero-subtitle {
-        /* font-size: 20px; */
-        margin-left: 10px;
+        font-size: 13px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .flex-about-me-title, .flex-work-title {
+        font-size: 18px;
+    }
+
+    .flex-about-me-bio {
+        font-size: 13px;
+    }
+
+    .GEDC, .Healthy, .KEEN {
         width: 100%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
+    }
+
+    .headings h3 {
+        font-size: 14px;
+    }
+
+    .headings p {
+        font-size: 11px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .connect {
+        padding-top: 30px;
     }
 }
   
@@ -451,32 +573,68 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
-      
+    
     header nav ul {
-        margin-top: 20px;
+        margin-top: 10px;
         width: 100%;
         justify-content: center;
     }
-      
+    
     header nav ul li a {
+        font-size: 10px;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+    }
+ 
+    .flex-about-me-title, .flex-work-title {
         font-size: 20px;
     }
-      
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+
+    .flex-about-me-bio {
+        font-size: 13px;
     }
-  
-    .hero-subtitle {
-        /* font-size: 20px; */
-        margin-left: 10px;
-    }
-  
-    footer h2, footer div {
-        text-align: center;
+
+    .GEDC, .Healthy, .KEEN {
         width: 100%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
+    }
+
+    .headings h3 {
+        font-size: 14px;
+    }
+
+    .headings p {
+        font-size: 11px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .connect {
+        padding-top: 30px;
     }
 }
   
