@@ -263,20 +263,22 @@ footer {
 /* WIDTH AT 1024px AND BELOW */
 @media screen and (max-width: 1024px) {
     header {
-        justify-content: center;
-        position: relative;
-        position: sticky;
-        position: -webkit-sticky;
+        /* position: sticky;
+        position: -webkit-sticky; */
+        justify-content: space-between;
     }
     
     header nav ul {
         margin-top: 20px;
         width: 100%;
-        justify-content: center;
     }
     
     header nav ul li a {
         font-size: 25px;
+    }
+
+    .hero {
+        width: 100%;
     }
 
     .hero-subtitle {
@@ -315,10 +317,9 @@ footer {
 /* WIDTH AT 980px AND BELOW */
 @media screen and (max-width: 980px) {
     header {
-        justify-content: center;
-        position: relative;
         position: sticky;
         position: -webkit-sticky;
+        justify-content: space-between;
     }
     
     header nav ul {
@@ -598,15 +599,15 @@ footer {
         font-size: 10px;
     }
 
-    .hero {
+    /* .hero {
         background-size: contain;
         height: 50vh;
         background-repeat: no-repeat;
-        padding-bottom: 10px;
-    }
+    } */
 
     .hero-subtitle {
         font-size: 12px;
+        padding-bottom: 10px;
     }
  
     .flex-about-me-title, .flex-work-title {
