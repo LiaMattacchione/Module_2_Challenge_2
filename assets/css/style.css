@@ -266,6 +266,7 @@ footer {
         /* position: sticky;
         position: -webkit-sticky; */
         justify-content: space-between;
+        background-repeat: no-repeat;
     }
     
     header nav ul {
@@ -279,6 +280,7 @@ footer {
 
     .hero {
         width: 100%;
+        background-repeat: no-repeat;
     }
 
     .hero-subtitle {
@@ -320,6 +322,7 @@ footer {
         position: sticky;
         position: -webkit-sticky;
         justify-content: space-between;
+        background-repeat: no-repeat;
     }
     
     header nav ul {
@@ -330,6 +333,11 @@ footer {
     
     header nav ul li a {
         font-size: 25px;
+    }
+
+    .hero {
+        width: 100%;
+        background-repeat: no-repeat;
     }
 
     .hero-subtitle {
@@ -368,10 +376,10 @@ footer {
 /* WIDTH AT 768px AND BELOW */
 @media screen and (max-width: 768px) {
     header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
+        background-repeat: no-repeat;
     }
     
     header nav ul {
@@ -382,6 +390,11 @@ footer {
     
     header nav ul li a {
         font-size: 25px;
+    }
+
+    .hero {
+        width: 100%;
+        background-repeat: no-repeat;
     }
 
     .hero-subtitle {
@@ -424,13 +437,14 @@ footer {
 /* WIDTH AT 600px AND BELOW */
 @media screen and (max-width: 600px) {
     header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-size: contain;
-        background-color: var(--secondary-color);
         padding-bottom: 10px;
+    }
+
+    header div img {
+        height: 50px;
     }
     
     header nav ul {
@@ -444,8 +458,7 @@ footer {
     }
 
     .hero {
-        background-size: contain;
-        height: 50vh;
+        width: 100%;
         background-repeat: no-repeat;
     }
 
@@ -500,13 +513,14 @@ footer {
 /* WIDTH AT 575px AND BELOW */
 @media screen and (max-width: 575px) {
     header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-size: contain;
-        background-color: var(--secondary-color);
         padding-bottom: 10px;
+    }
+
+    header div img {
+        height: 50px;
     }
     
     header nav ul {
@@ -520,8 +534,7 @@ footer {
     }
 
     .hero {
-        background-size: contain;
-        height: 50vh;
+        width: 100%;
         background-repeat: no-repeat;
     }
 
@@ -580,13 +593,14 @@ footer {
 /* WIDTH AT 480px AND BELOW */
 @media screen and (max-width: 480) {
     header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-size: contain;
-        background-color: var(--secondary-color);
         padding-bottom: 10px;
+    }
+
+    header div img {
+        height: 40px;
     }
     
     header nav ul {
@@ -599,11 +613,11 @@ footer {
         font-size: 10px;
     }
 
-    /* .hero {
-        background-size: contain;
-        height: 50vh;
+    .hero {
+        width: 100%;
+        height: 400px;
         background-repeat: no-repeat;
-    } */
+    }
 
     .hero-subtitle {
         font-size: 12px;
