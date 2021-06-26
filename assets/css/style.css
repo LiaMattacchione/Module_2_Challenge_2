@@ -28,6 +28,7 @@ header {
     background-image: url("../images/Lia_hero.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 10px 35px 0 35px;
     z-index: 9999;
@@ -77,8 +78,10 @@ header nav ul li a:hover {
     justify-content: flex-end;
     align-content: flex-end;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
 }
 
 .hero-subtitle {
@@ -260,12 +263,10 @@ footer {
 /* WIDTH AT 1024px AND BELOW */
 @media screen and (max-width: 1024px) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
-        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -314,12 +315,10 @@ footer {
 /* WIDTH AT 980px AND BELOW */
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
-        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -368,12 +367,10 @@ footer {
 /* WIDTH AT 768px AND BELOW */
 @media screen and (max-width: 768px) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
-        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -426,11 +423,12 @@ footer {
 /* WIDTH AT 600px AND BELOW */
 @media screen and (max-width: 600px) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        background-size: contain;
+        background-color: var(--secondary-color);
         padding-bottom: 10px;
     }
     
@@ -442,6 +440,12 @@ footer {
     
     header nav ul li a {
         font-size: 20px;
+    }
+
+    .hero {
+        background-size: contain;
+        height: 50vh;
+        background-repeat: no-repeat;
     }
 
     .hero-subtitle {
@@ -495,11 +499,12 @@ footer {
 /* WIDTH AT 575px AND BELOW */
 @media screen and (max-width: 575px) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        background-size: contain;
+        background-color: var(--secondary-color);
         padding-bottom: 10px;
     }
     
@@ -511,6 +516,12 @@ footer {
     
     header nav ul li a {
         font-size: 18px;
+    }
+
+    .hero {
+        background-size: contain;
+        height: 50vh;
+        background-repeat: no-repeat;
     }
 
     .hero-subtitle {
@@ -568,11 +579,12 @@ footer {
 /* WIDTH AT 480px AND BELOW */
 @media screen and (max-width: 480) {
     header {
-        padding-bottom: 0px;
         justify-content: center;
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        background-size: contain;
+        background-color: var(--secondary-color);
         padding-bottom: 10px;
     }
     
@@ -584,6 +596,13 @@ footer {
     
     header nav ul li a {
         font-size: 10px;
+    }
+
+    .hero {
+        background-size: contain;
+        height: 50vh;
+        background-repeat: no-repeat;
+        padding-bottom: 10px;
     }
 
     .hero-subtitle {
