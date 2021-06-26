@@ -74,7 +74,7 @@ header nav ul li a:hover {
     background-image: url("../images/Lia_hero.jpg");
     display: flex;
     flex-wrap: wrap;
-    height: 75vh;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
