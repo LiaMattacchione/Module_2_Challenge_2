@@ -264,8 +264,9 @@ footer {
 @media screen and (max-width: 1024px) {
     header {
         justify-content: space-between;
+        position: sticky;
+        position: -webkit-sticky;
         background-repeat: no-repeat;
-        position: relative;
     }
     
     header nav ul {
@@ -318,8 +319,9 @@ footer {
 /* WIDTH AT 980px AND BELOW */
 @media screen and (max-width: 980px) {
     header {
-        position: relative;
         justify-content: space-between;
+        position: sticky;
+        position: -webkit-sticky;
         background-repeat: no-repeat;
     }
     
@@ -375,7 +377,8 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         justify-content: space-between;
-        position: relative;
+        position: sticky;
+        position: -webkit-sticky;
         background-repeat: no-repeat;
     }
     
@@ -435,7 +438,8 @@ footer {
 @media screen and (max-width: 600px) {
     header {
         justify-content: space-between;
-        position: relative;
+        position: sticky;
+        position: -webkit-sticky;
         background-repeat: no-repeat;
         padding-bottom: 10px;
     }
