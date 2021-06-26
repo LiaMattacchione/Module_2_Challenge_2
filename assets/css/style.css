@@ -279,7 +279,7 @@ footer {
     }
 
     .hero-subtitle {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .flex-about-me-title, .flex-work-title {
@@ -402,7 +402,7 @@ footer {
     }
 
     .GEDC {
-        background-image: url("../images/Lia_hero.jpg");
+        background-image: url("../images/GEDC-icon.png");
     }
 
     .headings h3 {
@@ -442,7 +442,6 @@ footer {
     
     header nav ul li a {
         font-size: 20px;
-        /* padding: 6px 15px; */
     }
 
     .hero-subtitle {
@@ -458,6 +457,17 @@ footer {
         min-height: 250px;
         margin-right: 0;
         margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
     }
 
     .headings h3 {
@@ -476,6 +486,10 @@ footer {
         align-content: flex-start;
         justify-content: center;
     }
+
+    .connect {
+        padding-top: 30px;
+    }
 }
 
 /* WIDTH AT 575px AND BELOW */
@@ -486,6 +500,7 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
     
     header nav ul {
@@ -495,23 +510,58 @@ footer {
     }
     
     header nav ul li a {
-        font-size: 22px;
-    }
-    
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+        font-size: 20px;
     }
 
     .hero-subtitle {
-        /* font-size: 20px; */
-        margin-left: 10px;
+        font-size: 15px;
     }
 
-    footer h2, footer div {
-        text-align: center;
+    .flex-about-me-title, .flex-work-title {
+        font-size: 20px;
+    }
+
+    .flex-about-me-bio {
+        font-size: 13px;
+    }
+
+    .GEDC, .Healthy, .KEEN {
+        width: 80%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
+    }
+
+    .headings h3 {
+        font-size: 14px;
+    }
+
+    .headings p {
+        font-size: 11px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .connect {
+        padding-top: 30px;
     }
 }
   
@@ -523,32 +573,68 @@ footer {
         position: relative;
         position: sticky;
         position: -webkit-sticky;
+        padding-bottom: 10px;
     }
-      
+    
     header nav ul {
         margin-top: 20px;
         width: 100%;
         justify-content: center;
     }
-      
+    
     header nav ul li a {
+        font-size: 10px;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+    }
+
+    .flex-about-me-title, .flex-work-title {
         font-size: 20px;
     }
-      
-    .hero {
-        width: 100%;
-        position: relative;
-        background-position: center;
+
+    .flex-about-me-bio {
+        font-size: 13px;
     }
-  
-    .hero-subtitle {
-        /* font-size: 20px; */
-        margin-left: 10px;
+
+    .GEDC, .Healthy, .KEEN {
+        width: 80%;
+        min-height: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
-  
-    footer h2, footer div {
-        text-align: center;
+
+    .GEDC {
+        background-image: url("../images/GEDC-icon.png");
+    }
+
+    .Healthy {
+        background-image: url("../images/Healthy-icon.png")
+    }
+    .KEEN {
+        background-image: url("../images/OKA-icon.jpg");
+    }
+
+    .headings h3 {
+        font-size: 14px;
+    }
+
+    .headings p {
+        font-size: 11px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
+        padding: 30px;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .connect {
+        padding-top: 30px;
     }
 }
   
