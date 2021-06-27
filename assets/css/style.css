@@ -3,7 +3,7 @@
     --secondary-color: #FCF8F3;
     --tertiary-color: #2E211B;
 }
-  /* test update*/
+  
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,8 +27,8 @@ header {
     background-image: url("../images/Lia_hero.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position: 100%;
     justify-content: space-between;
     padding: 10px 35px 0 35px;
     z-index: 9999;
