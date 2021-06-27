@@ -3,7 +3,7 @@
     --secondary-color: #FCF8F3;
     --tertiary-color: #2E211B;
 }
-  
+  /* test update*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -92,6 +92,7 @@ header nav ul li a:hover {
     font-size: 1.3vw;
     margin: 0 20px 0 0;
 }
+
 /* END HERO IMAGE STYLING */
 
 /* START - FLEX STYLING ABOUT ME & WORK */
@@ -173,7 +174,6 @@ header nav ul li a:hover {
     opacity: 1;
     border-radius: 14px;
 }
-
 /* END - FLEX STYLING ABOUT ME & WORK */
 
 /* START - FOOTER STYLING */
@@ -199,8 +199,7 @@ footer {
     font-size: 30px;
 }
 
-.contact-form input, 
-.contact-form textarea {
+.contact-form input, .contact-form textarea {
     border: 1px solid var(--tertiary-color);
     display: block;
     padding: 10px 15px;
@@ -260,6 +259,7 @@ footer {
 /* END - FOOTER STYLING */
 
 /* MEDIA QUERIES*/
+
 /* WIDTH AT 1024px AND BELOW */
 @media screen and (max-width: 1024px) {
     header {
