@@ -3,7 +3,7 @@
     --secondary-color: #FCF8F3;
     --tertiary-color: #2E211B;
 }
-  /* test update*/
+  
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,12 +24,10 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/Lia_hero.jpg");
+    background-color: #F9F2E6;
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 35px 0 35px;
     z-index: 9999;
 }
@@ -50,14 +48,12 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
 header nav ul li a {
     padding: 10px 15px;
-    font-size: 1.55vw;
+    font-size: 1.58vw;
     color: var(--tertiary-color);
     text-decoration: none;
 }
@@ -265,7 +261,6 @@ footer {
         justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-repeat: no-repeat;
     }
      
     header nav ul {
@@ -276,11 +271,6 @@ footer {
     header nav ul li a {
         font-size: 25px;
     }
-
-    /* .hero {
-        width: 100%;
-        background-repeat: no-repeat;
-    } */
 
     .hero-subtitle {
         font-size: 18px;
@@ -321,7 +311,6 @@ footer {
         justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-repeat: no-repeat;
     }
     
     header nav ul {
@@ -333,11 +322,6 @@ footer {
     header nav ul li a {
         font-size: 25px;
     }
-
-    /* .hero {
-        width: 100%;
-        background-repeat: no-repeat;
-    } */
 
     .hero-subtitle {
         font-size: 18px;
@@ -391,11 +375,6 @@ footer {
         font-size: 25px;
     }
 
-    /* .hero {
-        width: 100%;
-        background-repeat: no-repeat;
-    } */
-
     .hero-subtitle {
         font-size: 15px;
     }
@@ -439,7 +418,6 @@ footer {
         justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-repeat: no-repeat;
         padding-bottom: 10px;
     }
 
@@ -457,10 +435,6 @@ footer {
         font-size: 20px;
     }
  
-    /* .hero {
-        width: 100%;
-        background-repeat: no-repeat;
-    } */
 
     .hero-subtitle {
         font-size: 15px;
@@ -516,7 +490,6 @@ footer {
         justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-repeat: no-repeat;
         padding-bottom: 10px;
     }
 
@@ -534,10 +507,6 @@ footer {
         padding: 10px;
         font-size: 20px;
     }
-
-    /* .hero {
-        background-repeat: no-repeat;
-    } */
 
     .hero-subtitle {
         font-size: 13px;
@@ -597,7 +566,6 @@ footer {
         justify-content: space-between;
         position: sticky;
         position: -webkit-sticky;
-        background-repeat: no-repeat;
         padding-bottom: 10px;
     } 
 
@@ -615,10 +583,6 @@ footer {
         padding: 10px;
         font-size: 15px;
     }
-
-    /* .hero {
-        background-repeat: no-repeat;
-    } */
 
     .hero-subtitle {
         font-size: 12px;
