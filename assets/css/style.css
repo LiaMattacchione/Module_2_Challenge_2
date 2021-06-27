@@ -127,7 +127,8 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
-    background-position: center;
+    background-position:center center;
+    position: relative;
     opacity: 0.8;
     border: 2px solid #2E211B;
     border-radius: 14px;
