@@ -28,7 +28,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center center;
     justify-content: space-between;
     padding: 10px 35px 0 35px;
     z-index: 9999;
