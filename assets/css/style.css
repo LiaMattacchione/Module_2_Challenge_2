@@ -1,14 +1,14 @@
-:root {
-    --primary-color: #F1D9BF;
-    --secondary-color: #FCF8F3;
-    --tertiary-color: #2E211B;
-}
-  
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 } 
+
+:root {
+    --primary-color: #F1D9BF;
+    --secondary-color: #FCF8F3;
+    --tertiary-color: #2E211B;
+}
 
 /* START - BODY STYLINNG */
 body {
@@ -40,7 +40,7 @@ header h1 a {
 }
 
 header nav {
-    margin: 10px 0 0 0;
+    margin-top: 10px;
     color: var(--tertiary-color);
 }
 
@@ -130,7 +130,6 @@ header nav ul li a:hover {
     background-position:center center;
     background-repeat: no-repeat;
     background-color: #ffff;
-    position: relative;
     opacity: 0.8;
     border: 2px solid #2E211B;
     border-radius: 14px;
