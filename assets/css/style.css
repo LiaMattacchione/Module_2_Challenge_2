@@ -139,10 +139,14 @@ header nav ul li a:hover {
     min-height: 250px;
 }
 
-.GEDC {
+.Pro1 {
     width: 100%;
     background-image: url('../images/GEDC.png');
     min-height: 350px;
+}
+
+.GEDC {
+    background-image: url('../images/GEDC.png');
 }
 
 .Healthy {
