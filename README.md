@@ -21,6 +21,6 @@ AS AN employer:
     * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Challenge Components/Resources
-* Screenshot of ![mock-up website](./assets./images./ReadMeScreenshot.png)
+* Screenshot of ![mock-up website](./assets/images/ReadMeScreenshot.png)
 * Module 2 Challenge 2 GitHub [link] (https://github.com/LiaMattacchione/Module_2_Challenge_2.git)
 * View link of [deployed application] (https://liamattacchione.github.io/Module_2_Challenge_2/)
