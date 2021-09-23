@@ -139,10 +139,14 @@ header nav ul li a:hover {
     min-height: 250px;
 }
 
-.Pro1 {
+.Pro2 {
     width: 100%;
-    background-image: url('../images/COVIDCoders.png');
+    background-image: url('../images/Homepage_Logo_extended_icon.png');
     min-height: 350px;
+}
+
+.Pro1 {
+    background-image: url('../images/COVIDCoders.png');
 }
 
 .GEDC {
@@ -331,6 +335,10 @@ footer {
 
     .flex-about-me-title, .flex-work-title {
         font-size: 25px;
+    }
+
+    .Pro2{
+        background-image: url("../images/ChefsWay_Icon.png");
     }
 
     .Pro1 {
