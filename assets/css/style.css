@@ -170,7 +170,7 @@ header nav ul li a:hover {
     border-radius: 0 10px 10px 10px;
 }
 
-.Pro1:hover, .GEDC:hover, .Healthy:hover, .KEEN:hover {
+.Pro2:hover, .Pro1:hover, .GEDC:hover, .Healthy:hover, .KEEN:hover {
     opacity: 1;
     border-radius: 14px;
 }
@@ -286,7 +286,7 @@ footer {
         font-size: 25px;
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 80%;
         min-height: 250px;
         margin-right: 0;
@@ -345,7 +345,7 @@ footer {
         background-image: url("../images/COVIDcoders-small.png");
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 80%;
         min-height: 250px;
         margin-right: 0;
@@ -397,7 +397,7 @@ footer {
         font-size: 25px;
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 80%;
         min-height: 250px;
         margin-right: 0;
@@ -457,7 +457,7 @@ footer {
         font-size: 25px;
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 100%;
         min-height: 250px;
         margin-right: 0;
@@ -537,7 +537,7 @@ footer {
         font-size: 13px;
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 100%;
         min-height: 250px;
         margin-right: 0;
@@ -614,7 +614,7 @@ footer {
         font-size: 13px;
     }
 
-    .GEDC, .Healthy, .KEEN {
+    .Pro1, .GEDC, .Healthy, .KEEN {
         width: 100%;
         min-height: 250px;
         margin-right: 0;
